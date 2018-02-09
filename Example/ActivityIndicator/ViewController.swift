@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ActivityIndicator
 
 class ViewController: UIViewController {
 

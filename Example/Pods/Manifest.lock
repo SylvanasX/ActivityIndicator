@@ -1,0 +1,30 @@
+PODS:
+  - ActivityIndicator (0.1.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+
+DEPENDENCIES:
+  - ActivityIndicator (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+EXTERNAL SOURCES:
+  ActivityIndicator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ActivityIndicator: 6773c4896888d80fe4d1db692e2bd5ddb1c867dd
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+
+PODFILE CHECKSUM: e4bf18765895e9f94ae0e0f13f1d59f972f7fdc1
+
+COCOAPODS: 1.4.0

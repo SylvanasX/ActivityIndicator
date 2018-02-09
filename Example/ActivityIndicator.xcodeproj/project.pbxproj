@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		72AC54679E13F374A556B9AC /* Pods-ActivityIndicator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivityIndicator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ActivityIndicator_Tests/Pods-ActivityIndicator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		85B554260804FD1ED9DF580D /* ActivityIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ActivityIndicator.podspec; path = ../ActivityIndicator.podspec; sourceTree = "<group>"; };
+		85B554260804FD1ED9DF580D /* ActivityIndicator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ActivityIndicator.podspec; path = ../ActivityIndicator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99ED592906C86A8FD7CAF1DB /* Pods_ActivityIndicator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActivityIndicator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A759313D3D687AA61FCE43F8 /* Pods-ActivityIndicator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ActivityIndicator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ActivityIndicator_Tests/Pods-ActivityIndicator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D82FCDB30E450677FFB1828E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D82FCDB30E450677FFB1828E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EBDE6AF3CF8E669656BD4EEF /* Pods_ActivityIndicator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ActivityIndicator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF35A7110118C196A1790D62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FF35A7110118C196A1790D62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,10 +323,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ActivityIndicator_Example/Pods-ActivityIndicator_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ActivityIndicator/ActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
