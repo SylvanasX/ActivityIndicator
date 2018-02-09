@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ActivityIndicator'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ActivityIndicator.'
+  s.summary          = 'ActivityIndicator.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,13 +24,20 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/SylvanasX/ActivityIndicator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'SylvanasX' => '10393625@qq.com' }
+  s.author           = { 'SylvanasX' => 'yuanpeitao@gmail.com' }
   s.source           = { :git => 'https://github.com/SylvanasX/ActivityIndicator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.10'
+  s.tvos.deployment_target = '9.0'
+  s.watchos.deployment_target = '2.0'
 
   s.source_files = 'ActivityIndicator/Classes/**/*'
+
+  s.dependency   "RxSwift", "~> 4.0"
+  s.dependency   "RxCocoa", "~> 4.0"
+  
   
   # s.resource_bundles = {
   #   'ActivityIndicator' => ['ActivityIndicator/Assets/*.png']
